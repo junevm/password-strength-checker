@@ -187,7 +187,7 @@ The modular architecture enables numerous potential enhancements:
 
 ### 10.5 Project Impact
 
-This project contributes to improved cybersecurity awareness by helping users understand what makes passwords secure. In an era of increasing cyber threats where over 80% of data breaches involve weak or stolen passwords (as noted in Section 3), educational tools that protect while teaching users are invaluable.
+This project contributes to improved cybersecurity awareness by helping users understand what makes passwords secure. In an era of increasing cyber threats where data breaches frequently involve weak or stolen passwords (as discussed in Section 3), educational tools that protect while teaching users are invaluable.
 
 The open-source nature of this project (available on GitHub) ensures maximum accessibility and educational value, allowing students and developers worldwide to learn from the implementation and adapt it for their specific needs.
 
