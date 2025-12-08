@@ -109,7 +109,10 @@ The application follows a layered architecture with clear separation of concerns
 
 ### 9.3 Key Features Implemented
 
-**Multi-Criteria Evaluation:** Seven distinct evaluation criteria including length analysis (6-7 chars: +1, 8-11 chars: +2, 12+ chars: +3 points), character type detection (uppercase, lowercase, numbers, special characters), and vulnerability detection (common patterns: -2 points, repeated characters: -1 point).
+**Multi-Criteria Evaluation:** Seven distinct evaluation criteria:
+- Length analysis: 6-7 chars (+1 point), 8-11 chars (+2 points), 12+ chars (+3 points)
+- Character type detection: uppercase, lowercase, numbers, special characters
+- Vulnerability detection: common patterns (-2 points), repeated characters (-1 point)
 
 **Intelligent Pattern Recognition:** Detects common weak patterns (password, 123, abc, qwerty, admin) and identifies repeated character sequences (3+ consecutive identical characters).
 
@@ -174,11 +177,17 @@ The application serves multiple important purposes:
 
 ### 10.4 Future Enhancements
 
-The modular architecture enables numerous potential enhancements: Web interface with REST API, integration with breach databases (HaveIBeenPwned), password generator functionality, machine learning-based pattern detection, mobile applications, browser extensions, and enterprise policy management features.
+The modular architecture enables numerous potential enhancements:
+- Web interface with REST API
+- Integration with breach databases (HaveIBeenPwned)
+- Password generator functionality
+- Machine learning-based pattern detection
+- Mobile applications and browser extensions
+- Enterprise policy management features
 
 ### 10.5 Project Impact
 
-This project contributes to improved cybersecurity awareness by helping users understand what makes passwords secure. In an era of increasing cyber threats where over 80% of data breaches involve weak or stolen passwords, educational tools that protect while teaching users are invaluable.
+This project contributes to improved cybersecurity awareness by helping users understand what makes passwords secure. In an era of increasing cyber threats where over 80% of data breaches involve weak or stolen passwords (as noted in Section 3), educational tools that protect while teaching users are invaluable.
 
 The open-source nature of this project (available on GitHub) ensures maximum accessibility and educational value, allowing students and developers worldwide to learn from the implementation and adapt it for their specific needs.
 
