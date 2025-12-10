@@ -5,18 +5,21 @@
 ### Prerequisites
 
 Choose one of the following:
+
 - **Option 1**: Java 11+ and Maven 3.6+
 - **Option 2**: Docker only
 
 ### Option 1: Run with Java/Maven
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/junevm/password-strength-checker.git
    cd password-strength-checker
    ```
 
 2. **Build the project:**
+
    ```bash
    mvn clean package
    ```
@@ -29,21 +32,19 @@ Choose one of the following:
 ### Option 2: Run with Docker
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/junevm/password-strength-checker.git
    cd password-strength-checker
    ```
 
 2. **Build and run:**
+
    ```bash
    docker build -t password-strength-checker .
    docker run -it password-strength-checker
    ```
 
-   Or with docker-compose:
-   ```bash
-   docker-compose up --build
-   ```
 
 ## Using the Application
 
@@ -116,11 +117,13 @@ Strength Level: 🟢 STRONG (Score: 8/8)
 ## Running Tests
 
 To run the unit tests:
+
 ```bash
 mvn test
 ```
 
 Expected output:
+
 ```
 Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
 ```
@@ -128,20 +131,25 @@ Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
 ## Troubleshooting
 
 ### Issue: "mvn: command not found"
+
 **Solution:** Install Maven from https://maven.apache.org/download.cgi
 
 ### Issue: "java: command not found"
+
 **Solution:** Install Java 11+ from https://adoptium.net/
 
 ### Issue: Docker build fails
+
 **Solution:** Ensure Docker is running and you have internet connectivity for downloading dependencies
 
 ### Issue: Application doesn't start
+
 **Solution:** Check that port is not blocked and you have sufficient memory (minimum 512MB)
 
 ## For Academic Submission
 
 This project includes:
+
 - **SYNOPSIS.md** - 4-page academic synopsis with all required sections
 - **PROJECT_REPORT.md** - 10-15 page detailed project report
 - **README.md** - Complete technical documentation
