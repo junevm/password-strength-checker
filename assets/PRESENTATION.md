@@ -77,18 +77,7 @@ I started by generating the standard project structure using Maven's archetype s
 
 ## Slide 6: Managing Dependencies
 
-**Adding External Libraries**
-To use `StringUtils` and testing features, I added `commons-lang3` and `junit` dependencies to the `pom.xml` file automatically using Maven commands.
-
-**Commands Executed:**
-
-```bash
-# Add Apache Commons Lang dependency
-mvn dependency:add -DgroupId=org.apache.commons -DartifactId=commons-lang3 -Dversion=3.14.0
-
-# Add JUnit dependency
-mvn dependency:add -DgroupId=junit -DartifactId=junit -Dversion=4.13.2 -Dscope=test
-```
+Added `commons-lang3` and `junit` dependencies to the `pom.xml` file
 
 **Installing Dependencies**
 After adding the dependencies, I executed the following command to download the libraries from the Maven Central Repository:
@@ -142,7 +131,7 @@ The application uses a weighted scoring algorithm:
 
 ---
 
-## Slide 9: Building the Project
+## Slide 9: z
 
 **Compiling and Packaging**
 I used Maven to compile the Java code and package it into an executable JAR file.
