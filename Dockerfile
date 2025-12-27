@@ -5,14 +5,8 @@ FROM maven:3.9.5-eclipse-temurin-11 AS builder
 
 WORKDIR /app
 
-# Copy pom.xml first for better layer caching
-COPY pom.xml .
-
-# Download dependencies
-RUN mvn dependency:go-offline -B
-
-# Copy source code
-COPY src ./src
+# Copy source code to container
+COPY . .
 
 # Build the application
 RUN mvn clean package -DskipTests

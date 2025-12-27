@@ -30,3 +30,4 @@ Thumbs.db
 *.swp
 *~
 assets/*
+!target/password-strength-checker-1.0.0.jar
