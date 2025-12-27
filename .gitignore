@@ -29,5 +29,4 @@ Thumbs.db
 *.tmp
 *.swp
 *~
-
 !target/password-strength-checker-1.0.0.jar
